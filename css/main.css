@@ -18,6 +18,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400;}
 
+/* Navigation */
+
 nav {
   height: 3.5em;
 }
@@ -45,6 +47,8 @@ nav {
   border-color: #f15726;
 }
 
+/* Main Content */
+
 .jumbotron .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -54,6 +58,23 @@ nav {
 .container {
   max-width: 1170px;
   margin: 0 auto;
+}
+
+.container a {
+  color: #f15726
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: #f15726
+  text-decoration: none;
+  opacity: 85%;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 4em;
 }
 
 .footer-navbar {
