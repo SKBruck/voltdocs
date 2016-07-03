@@ -1,0 +1,48 @@
+/* Base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  margin: 0 auto;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #222;
+  background-image: url('../img/line-tile.png');
+  background-repeat: repeat;
+}
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400;}
+
+nav {
+  height: 3.5em;
+  margin-bottom: 17em;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.logo-img {
+  width: 50%;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+  opacity: 0.85;
+}
+
+.navbar-default {
+  background-color: #f15726;
+  border-color: #f15726;
+}
