@@ -10,48 +10,50 @@ layout: home
 </div>
 
 <div class="container">
-  <div class="row">
-    <div class="col-md-3 col-sm-3 col-xs-2">
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="post-list-box">
+      <h2 class="post-list-header">Quick Start</h2>
       <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <h3>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h3>
-          </li>
+        {% for post in site.categories.quickstart %}
+          {% if post.url %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
-    <div class="col-md-3 col-sm-3 col-xs-2">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="post-list-box">
+      <h2 class="post-list-header">Tutorials</h2>
       <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <h3>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h3>
-          </li>
+        {% for post in site.categories.tutorials %}
+          {% if post.url %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
-    <div class="col-md-3 col-sm-3 col-xs-2">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="post-list-box">
+      <h2 class="post-list-header">Reference</h2>
       <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <h3>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h3>
-          </li>
+        {% for post in site.categories.reference %}
+          {% if post.url %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
-    <div class="col-md-3 col-sm-3 col-xs-2">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="post-list-box">
+      <h2 class="post-list-header">Troubleshooting</h2>
       <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <h3>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h3>
-          </li>
+        {% for post in site.categories.troubleshooting %}
+          {% if post.url %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
