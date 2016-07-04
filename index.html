@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
   <div class="container">
@@ -10,13 +10,50 @@ layout: default
 </div>
 
 <div class="container">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-2">
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <h3>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-2">
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <h3>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-2">
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <h3>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-2">
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <h3>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
