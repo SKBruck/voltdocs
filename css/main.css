@@ -37,6 +37,18 @@ h6 { font-size: 100%; font-weight: 400; }
   width: 45%;
 }
 
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #C8380A;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
 /* Main Content */
 
 .jumbotron {
