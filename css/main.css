@@ -37,12 +37,16 @@ h6 { font-size: 100%; font-weight: 400; }
   width: 45%;
 }
 
+.btn-primary {
+  border: 2px solid #ee450f;
+}
+
 .navbar-default .navbar-toggle {
   border-color: #fff;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: #C8380A;
+  background-color: #b5340c;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
