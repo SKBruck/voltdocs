@@ -4,6 +4,7 @@ layout: home
 
   <div class="container">
 
+    <h1>Intro Paragraph</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet dictum leo. Nullam pharetra lectus vitae purus tristique tempus. Interdum et <a href="#">malesuada fames ac ante ipsum</a> primis in faucibus. Sed nec dolor sapien. Curabitur rutrum scelerisque erat, at viverra erat faucibus in. Duis id sem tempus, consectetur lorem vel, mattis lorem. Mauris purus ante, hendrerit vitae eros id, auctor tincidunt elit. Cras at nisl in nunc molestie tincidunt. Aliquam scelerisque nibh neque, ac imperdiet nibh luctus vel. Morbi dapibus magna volutpat risus venenatis congue.</p>
 
   </div>
@@ -12,9 +13,9 @@ layout: home
 <div class="container">
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
-      <h2 class="post-list-header">Quick Start</h2>
+      <h2 class="post-list-header">Category 1</h2>
       <ul class="post-list">
-        {% for post in site.categories.quickstart %}
+        {% for post in site.categories.cat1 %}
           {% if post.url %}
               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
@@ -24,9 +25,9 @@ layout: home
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
-      <h2 class="post-list-header">Tutorials</h2>
+      <h2 class="post-list-header">Category 2</h2>
       <ul class="post-list">
-        {% for post in site.categories.tutorials %}
+        {% for post in site.categories.cat2 %}
           {% if post.url %}
               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
@@ -36,9 +37,9 @@ layout: home
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
-      <h2 class="post-list-header">Reference</h2>
+      <h2 class="post-list-header">Category 3</h2>
       <ul class="post-list">
-        {% for post in site.categories.reference %}
+        {% for post in site.categories.cat3 %}
           {% if post.url %}
               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
@@ -48,9 +49,9 @@ layout: home
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
-      <h2 class="post-list-header">Troubleshooting</h2>
+      <h2 class="post-list-header">Category 4</h2>
       <ul class="post-list">
-        {% for post in site.categories.troubleshooting %}
+        {% for post in site.categories.cat4 %}
           {% if post.url %}
               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
