@@ -1,4 +1,4 @@
-Notes
+Notes 2016.02.07
 
 2 - 3 hours upfront
 
@@ -45,7 +45,19 @@ Notes - 2016.04.07
 - James will manage the API/JS pages
 - Don't worry about reverse chronological order
 
+- Find search plugin
 - Logo - could be bigger?
 - optimize spacing for 675-700px browser height
   - wants to see categories w/o scroll
 - Move the searchbar up - top navbar
+- Limit the number of posts in each category box (currently takes 8, maybe limit to 5)
+  - increase link size
+  - add a "more..." link
+  - make category pages that the more... link links to
+- Add a navbar link that goes to all articles
+  - lists all articles regardless of category
+  - use usual index.html snippet for that
+  - don't worry about pagination for now
+- Change "Intro Paragraph" to "Volt Documentation"
+- Stop at 4 hours
+
