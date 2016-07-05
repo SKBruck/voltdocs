@@ -38,3 +38,14 @@ Jekyll site simple documentation site for VOLT stuff
   - wants to let ppl search, but not rely on google site search
   - look for JS-based search options based off an index page
     - look for a jekyll plugin all client-side search 30 min
+
+Notes - 2016.04.07
+
+- Wants to add new categories manually
+- James will manage the API/JS pages
+- Don't worry about reverse chronological order
+
+- Logo - could be bigger?
+- optimize spacing for 675-700px browser height
+  - wants to see categories w/o scroll
+- Move the searchbar up - top navbar
