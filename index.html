@@ -23,46 +23,52 @@ layout: home
           {% endfor %}
         </ul>
       </div>
-      <h2 class="more-link"><a href="{{ site.baseurl }}/cat1">More...</a></h2>
+      <h4 class="more-link"><a href="{{ site.baseurl }}/cat1">More...</a></h4>
     </div>
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
       <h2 class="post-list-header">Category 2</h2>
-      <ul class="post-list">
-        {% for post in site.categories.cat2 limit:5 %}
-          {% if post.url %}
-              <li><h4><a href="{{ post.url }}">{{ post.title }}</a></h4></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-      <h2 class="more-link"><a href="{{ site.baseurl }}/cat2">More...</a></h2>
+      <div class="truncate">
+        <ul class="post-list">
+          {% for post in site.categories.cat2 limit:5 %}
+            {% if post.url %}
+                <li><h4><a href="{{ post.url }}">{{ post.title }}</a></h4></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <h4 class="more-link"><a href="{{ site.baseurl }}/cat2">More...</a></h4>
     </div>
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
       <h2 class="post-list-header">Category 3</h2>
-      <ul class="post-list">
-        {% for post in site.categories.cat3 limit:5 %}
-          {% if post.url %}
-              <li><h4><a href="{{ post.url }}">{{ post.title }}</a></h4></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-      <h2 class="more-link"><a href="{{ site.baseurl }}/cat3">More...</a></h2>
+      <div class="truncate">
+        <ul class="post-list">
+          {% for post in site.categories.cat3 limit:5 %}
+            {% if post.url %}
+                <li><h4><a href="{{ post.url }}">{{ post.title }}</a></h4></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <h4 class="more-link"><a href="{{ site.baseurl }}/cat3">More...</a></h4>
     </div>
   </div>
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
       <h2 class="post-list-header">Category 4</h2>
-      <ul class="post-list">
-        {% for post in site.categories.cat4 limit:5 %}
-          {% if post.url %}
-              <li><h4><a href="{{ post.url }}">{{ post.title }}</a></h4></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-      <h2 class="more-link"><a href="{{ site.baseurl }}/cat4">More...</a></h2>
+      <div class="truncate">
+        <ul class="post-list">
+          {% for post in site.categories.cat4 limit:5 %}
+            {% if post.url %}
+                <li><h4><a href="{{ post.url }}">{{ post.title }}</a></h4></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <h4 class="more-link"><a href="{{ site.baseurl }}/cat4">More...</a></h4>
     </div>
   </div>
 </div>
