@@ -88,11 +88,9 @@ h6 { font-size: 100%; font-weight: 400; }
 }
 
 .truncate { 
-  width: 100%;  
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: inline-block;
 }
 
 .more-link {
