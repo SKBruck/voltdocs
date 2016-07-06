@@ -61,3 +61,10 @@ Notes - 2016.04.07
 - Change "Intro Paragraph" to "Volt Documentation"
 - Stop at 4 hours
 
+Notes - 2016.07.06
+
+- exclude things that shouldn't be in _site (exclude: ['Gemfile', 'Gemfile.lock'])
+- no dates in the urls
+- consider using this plugin to generate category archives: https://github.com/jekyll/jekyll-archives
+- size fonts of post links down to refine them
+
