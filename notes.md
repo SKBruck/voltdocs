@@ -67,4 +67,16 @@ Notes - 2016.07.06
 - no dates in the urls
 - consider using this plugin to generate category archives: https://github.com/jekyll/jekyll-archives
 - size fonts of post links down to refine them
+- https://github.com/jekyll/jekyll-sitemap - also add
 
+Notes 2016.07.07
+
+Things to fix:
+- pretty sure the more link sizes should match the other URLs they look odd to me being bigger. I’m not a huge fan of them in general, but I don’t know what a better UI would be.
+- Does it seem like the docs links could be to the left a bit more?
+- Change All Docs to Article Index - can we list them alphabetically as opposed to reverse chronological?
+
+Plugins I would like you to install:
+- https://github.com/jekyll/jekyll-sitemap
+- https://github.com/jekyll/jekyll-archives - so you don’t have to manually make category archives
+- https://github.com/slashdotdash/jekyll-lunr-js-search - leave this for last, do as much as you can
