@@ -80,3 +80,4 @@ Plugins I would like you to install:
 - https://github.com/jekyll/jekyll-sitemap
 - https://github.com/jekyll/jekyll-archives - so you don’t have to manually make category archives
 - https://github.com/slashdotdash/jekyll-lunr-js-search - leave this for last, do as much as you can
+  - need a place to put the results, like a modal
