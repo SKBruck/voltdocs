@@ -13,3 +13,16 @@ permalink: pretty
 
 # Exclude files
 exclude: ['Gemfile', 'Gemfile.lock', 'notes.md', 'README.md', 'volt-colors']
+
+# Gems
+gems:
+  - jekyll-archives
+  - jekyll-sitemap
+
+# Jekyll Archives
+# jekyll-archives:
+#   enabled: 
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: '/category/:name/'
