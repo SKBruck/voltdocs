@@ -1,9 +1,20 @@
 ---
 layout: default
 ---
-<h1>Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
+{% if page.title == 'all' %}
+  <h1>Article Index</h1>
+{% else %}
+  <h1>Article Index of {{ page.type | capitalize }} '{{ page.title | capitalize }}'</h1>
+{% endif %}
 <ul class="posts">
-  {% for post in page.posts %}
-    <li class="post-list"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+  {% capture posts %}
+    {% for post in page.posts %}
+      |{{ post.title }}#{{ post.url }}
+    {% endfor %}
+  {% endcapture %}
+  {% assign sortedposts = posts | split: '|' | sort %}
+  {% for post in sortedposts %}
+      {% assign postitems = post | split: '#' %}
+      <li class="post-list"><a class="post-link" href={{ postitems[1] }}">{{ postitems[0] }}</a></li>
   {% endfor %}
 </ul>
