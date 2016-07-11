@@ -81,3 +81,9 @@ Plugins I would like you to install:
 - https://github.com/jekyll/jekyll-archives - so you don’t have to manually make category archives
 - https://github.com/slashdotdash/jekyll-lunr-js-search - leave this for last, do as much as you can
   - need a place to put the results, like a modal
+
+Notes 2016.07.10
+
+Final things to do:
+- Add retina volt logo to replace current one
+- Add lunrjs search (see 2016.07.07 notes)
