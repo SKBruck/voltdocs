@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h1>Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
+<ul class="posts">
+  {% for post in page.posts %}
+    <li class="post-list"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
