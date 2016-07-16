@@ -9,7 +9,7 @@ github_username:
 
 # Build settings
 markdown: kramdown
-permalink: none
+permalink: /:categories/:title/
 
 # Exclude files
 exclude: ['Gemfile', 'Gemfile.lock', 'notes.md', 'README.md', 'volt-colors']
