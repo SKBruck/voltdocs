@@ -1,28 +1,21 @@
 # Site settings
 title: Volt Docs
-email: 
 description: "Documentation and tutorials for Volt."
-baseurl: ""
-url: ""
-twitter_username: 
-github_username:  
+url: "https://docs.voltcloud.io"
 
 # Build settings
-markdown: kramdown
+kramdown:
+  input: GFM
+
 permalink: /:categories/:title/
 
 # Exclude files
-exclude: ['Gemfile', 'Gemfile.lock', 'notes.md', 'README.md', 'volt-colors']
-
-# Gems
-gems:
-  - jekyll-archives
-  - jekyll-sitemap
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'volt-colors']
 
 # Jekyll Archives
 jekyll-archives:
-  enabled: 
+  enabled:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: '/:name/'
