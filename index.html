@@ -4,7 +4,7 @@ layout: home
 
   <div class="container">
 
-    <h1>Volt Documentation</h1>
+    <h1>Volt Docs</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet dictum leo. Nullam pharetra lectus vitae purus tristique tempus. Interdum et <a href="#">malesuada fames ac ante ipsum</a> primis in faucibus. Sed nec dolor sapien. Curabitur rutrum scelerisque erat, at viverra erat faucibus in. Duis id sem tempus, consectetur lorem vel, mattis lorem.</p>
 
   </div>
@@ -14,7 +14,7 @@ layout: home
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
       <h2 class="post-list-header">Category 1</h2>
-        <ul class="post-list"">
+        <ul class="post-list">
           {% for post in site.categories.cat1 limit:5 %}
             {% if post.url %}
                 <li><p class="truncate"><a href="{{ post.url }}">{{ post.title }}</a></p></li>
@@ -27,7 +27,7 @@ layout: home
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
       <h2 class="post-list-header">Category 2</h2>
-        <ul class="post-list"">
+        <ul class="post-list">
           {% for post in site.categories.cat2 limit:5 %}
             {% if post.url %}
                 <li><p class="truncate"><a href="{{ post.url }}">{{ post.title }}</a></p></li>
@@ -40,7 +40,7 @@ layout: home
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
       <h2 class="post-list-header">Category 3</h2>
-        <ul class="post-list"">
+        <ul class="post-list">
           {% for post in site.categories.cat3 limit:5 %}
             {% if post.url %}
                 <li><p class="truncate"><a href="{{ post.url }}">{{ post.title }}</a></p></li>
@@ -53,7 +53,7 @@ layout: home
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="post-list-box">
       <h2 class="post-list-header">Category 4</h2>
-        <ul class="post-list"">
+        <ul class="post-list">
           {% for post in site.categories.cat4 limit:5 %}
             {% if post.url %}
                 <li><p class="truncate"><a href="{{ post.url }}">{{ post.title }}</a></p></li>
