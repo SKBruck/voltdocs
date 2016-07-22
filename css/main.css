@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-html { 
+html {
   position: relative;
   min-height: 100%;
 }
@@ -87,7 +87,7 @@ h6 { font-size: 100%; font-weight: 400; }
   position: relative;
 }
 
-.truncate { 
+.truncate {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -163,4 +163,3 @@ footer {
         float:none;
     }
 }
-
