@@ -1,6 +1,7 @@
 # Site settings
 title: Volt Docs
-description: "Documentation and tutorials for Volt."
+description: >
+  Documentation and tutorials for Volt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet dictum leo. Nullam pharetra lectus vitae purus tristique tempus. Interdum et <a href="#">malesuada fames ac ante ipsum</a> primis in faucibus. Sed nec dolor sapien. Curabitur rutrum scelerisque erat, at viverra erat faucibus in. Duis id sem tempus, consectetur lorem vel, mattis lorem.
 url: "https://docs.voltcloud.io"
 
 # Build settings
