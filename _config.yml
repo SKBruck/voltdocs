@@ -11,7 +11,7 @@ kramdown:
 permalink: /:categories/:title/
 
 # Exclude files
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'volt-colors', 'circle.yml']
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'volt-colors', 'circle.yml', 'vendor']
 
 # Jekyll Archives
 jekyll-archives:
