@@ -1,9 +1,15 @@
+# frozen_string_literal: true
+source 'https://rubygems.org'
+
 gem 'jekyll'
-gem 'jekyll-compose', group: [:jekyll_plugins]
-gem 'jekyll-sitemap', group: [:jekyll_plugins]
-gem 'jekyll-archives', group: [:jekyll_plugins]
-gem 'jekyll-feed', group: [:jekyll_plugins]
-gem 'jekyll-seo-tag', group: [:jekyll_plugins]
+
+group :jekyll_plugins do
+  gem 'jekyll-compose'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-archives'
+  gem 'jekyll-feed'
+  gem 'jekyll-seo-tag'
+end
 
 # testing
 gem 'html-proofer'
