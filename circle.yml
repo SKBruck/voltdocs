@@ -1,0 +1,12 @@
+machine:
+  ruby:
+    version: 2.3.1
+
+test:
+  override:
+    - bundle exec jekyll build
+    - bundle exec htmlproofer --check-html ./_site
+
+general:
+  artifacts:
+    - "_site"
