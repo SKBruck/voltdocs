@@ -5,7 +5,7 @@ machine:
 test:
   override:
     - bundle exec jekyll build
-    - bundle exec htmlproofer --check-html ./_site
+    - bundle exec htmlproofer --check-html --disable-external --url-ignore=/api/,/client/ ./_site
 
 general:
   artifacts:
