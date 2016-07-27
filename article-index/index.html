@@ -3,14 +3,8 @@ layout: page
 title: Article Index
 ---
 <ul class="posts">
-  {% capture posts %}
-    {% for post in site.posts %}
-      |{{ post.title }}#{{ post.url }}
-    {% endfor %}
-  {% endcapture %}
-  {% assign sortedposts = posts | split: '|' | sort %}
+  {% assign sortedposts = site.posts | sort: 'title' %}
   {% for post in sortedposts %}
-      {% assign postitems = post | split: '#' %}
-      <li class="post-list"><p><a class="post-link" href={{ postitems[1] }}">{{ postitems[0] }}</a></p></li>
+      <li class="post-list"><p><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></p></li>
   {% endfor %}
 </ul>
