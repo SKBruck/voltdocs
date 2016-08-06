@@ -1,7 +1,7 @@
 # Site settings
 title: Volt Docs
 description: >
-  Documentation and tutorials for Volt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet dictum leo. Nullam pharetra lectus vitae purus tristique tempus. Interdum et <a href="/">malesuada fames ac ante ipsum</a> primis in faucibus. Sed nec dolor sapien. Curabitur rutrum scelerisque erat, at viverra erat faucibus in. Duis id sem tempus, consectetur lorem vel, mattis lorem.
+  Documentation and tutorials for Volt. The categories below are a great place to get started, or you can browse <a href="/article-index/">all the articles</a>.
 url: "https://docs.voltcloud.io"
 copyright: Ars Mentis LLC
 tracking_id: 'UA-81364729-3'
@@ -13,10 +13,7 @@ kramdown:
 permalink: /:categories/:title/
 
 index_categories:
-  - Category 1
-  - Category 2
-  - Category 3
-  - Category 4
+  - Getting Started
 
 # Exclude files
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'volt-colors', 'circle.yml', 'vendor', 'deploy.sh']
@@ -31,4 +28,4 @@ jekyll-archives:
 
 # Footer content
 footer: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet dictum leo. Nullam pharetra lectus vitae purus tristique tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec dolor sapien. Curabitur rutrum scelerisque erat, at viverra erat faucibus in.
+  Not being used currently.
