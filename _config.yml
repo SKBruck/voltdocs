@@ -12,6 +12,12 @@ kramdown:
 
 permalink: /:categories/:title/
 
+index_categories:
+  - Category 1
+  - Category 2
+  - Category 3
+  - Category 4
+
 # Exclude files
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'volt-colors', 'circle.yml', 'vendor', 'deploy.sh']
 
