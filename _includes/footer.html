@@ -3,13 +3,13 @@
   <nav class="navbar navbar-inverse footer-navbar">
     <div class="container">
       <div class="navbar-header">
-        <p class="navbar-brand">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.copyright }}</p>
+        <p class="navbar-brand">{{ site.footer }}</p>
       </div>
     </div><!-- /.container -->
   </nav>
 
   <div class="container footer-content">
-    <p>{{ site.footer }}</p>
+    <p>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.copyright }}</p>
   </div>
 
 </footer>
