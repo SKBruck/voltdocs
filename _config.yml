@@ -1,7 +1,7 @@
 # Site settings
 title: Volt Docs
 description: >
-  Documentation and tutorials for Volt. The categories below are a great place to get started, or you can browse <a href="/article-index/">all the articles</a>.
+  Documentation and tutorials for Volt. The categories below are a great place to get started, or you can browse <a href="/article-index/">all the articles</a>.</p><p>Have a question or just want to say hi? Email us at <a href="mailto:hello@voltcloud.io">hello@voltcloud.io</a>.
 url: "https://docs.voltcloud.io"
 copyright: Ars Mentis LLC
 tracking_id: 'UA-81364729-3'
@@ -28,4 +28,4 @@ jekyll-archives:
 
 # Footer content
 footer: >
-  Not being used currently.
+  Questions? Comments? You can reach us at <a href="mailto:hello@voltcloud.io">hello@voltcloud.io</a>.
