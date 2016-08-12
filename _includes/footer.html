@@ -1,15 +1,16 @@
 <footer class="footer">
 
-  <nav class="navbar navbar-inverse footer-navbar">
-    <div class="container">
-      <div class="navbar-header">
+  <div class="container footer-content">
+    <div class="row">
+      <div class="col-xs-12">
         <p class="navbar-brand">{{ site.footer }}</p>
       </div>
-    </div><!-- /.container -->
-  </nav>
-
-  <div class="container footer-content">
-    <p>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.copyright }}</p>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.copyright }}</p>
+      </div>
+    </div>
   </div>
 
 </footer>
