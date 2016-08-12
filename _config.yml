@@ -16,7 +16,7 @@ index_categories:
   - Getting Started
 
 # Exclude files
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'volt-colors', 'circle.yml', 'vendor', 'deploy.sh']
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'circle.yml', 'vendor', 'deploy.sh']
 
 # Jekyll Archives
 jekyll-archives:
