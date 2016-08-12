@@ -19,6 +19,7 @@ body {
 nav .btn-primary, .btn-primary:hover, .btn-primary:active:hover {
   border-color: #ccc;
   border-left: 0;
+  line-height: 22px;
 }
 
 /* Main Content */
@@ -89,7 +90,8 @@ p {
 /* Footer */
 
 footer {
-  padding-top: 1.5em;
+ /* padding-top: 1.5em; */
+  border-top: 1px solid #e6e6e6; 
 }
 
 .footer-content {
