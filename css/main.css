@@ -90,12 +90,12 @@ p {
 /* Footer */
 
 footer {
- /* padding-top: 1.5em; */
-  border-top: 1px solid #e6e6e6; 
+  border-top: 1px solid #e6e6e6;
+  color: #555;
 }
 
 .footer-content {
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
 }
 
 .footer {
@@ -105,8 +105,12 @@ footer {
   height: 5em;
 }
 
-.footer-navbar {
-  border-bottom: 0;
+p.navbar-brand {
+  margin-bottom: 0;
+}
+
+p.copyright {
+  padding-left: 15px;
 }
 
 /*@media (max-width: 992px) { ... }*/
