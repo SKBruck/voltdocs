@@ -1,6 +1,6 @@
 <header>
   <!-- Modal -->
-  <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -39,11 +39,11 @@
           <li><a href="{{ site.baseurl }}/api/" target="_blank">API Docs</a></li>
           <li><a href="{{ site.baseurl }}/client/" target="_blank">JS Docs</a></li>
         </ul>
-        <form class="navbar-form navbar-right" role="search">
+        <form class="navbar-form navbar-right" role="search" id="search-btn">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Search">
             <span class="input-group-btn">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+              <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#search-modal"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
             </span>
           </div>
         </form>

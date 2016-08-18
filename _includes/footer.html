@@ -32,7 +32,8 @@
 
 </script>
 <script>
-  $('#search-submit').click(function (){
-    alert('Not yet implemented.');
+  $('form').submit(function( event ) {
+    $('#search-modal').modal('show');
+    event.preventDefault();
   });
 </script>
