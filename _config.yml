@@ -29,3 +29,5 @@ jekyll-archives:
 # Footer content
 footer: >
   Questions? Comments? You can reach us at <a href="mailto:hello@voltcloud.io">hello@voltcloud.io</a>.
+
+gems: ['jekyll-lunr-js-search']
