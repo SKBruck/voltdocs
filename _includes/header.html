@@ -6,10 +6,9 @@
         <section id="search-results" style="display: none;">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Search Results</h4>
+            <h4 class="modal-title">Search Results</h4>
           </div>
           <div class="modal-body entries">
-            
           </div>
         </section>
         <div class="modal-footer">
@@ -41,9 +40,9 @@
           <li><a href="{{ site.baseurl }}/api/" target="_blank">API Docs</a></li>
           <li><a href="{{ site.baseurl }}/client/" target="_blank">JS Docs</a></li>
         </ul>
-        <form class="navbar-form navbar-right" role="search" id="search-btn" action="/search" method="get">
+        <form class="navbar-form navbar-right" role="search" id="search-form">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" id="search-query" name="q" autocomplete="off">
+            <input type="text" class="form-control" placeholder="Search" id="search-query" autocomplete="off">
             <span class="input-group-btn">
               <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#search-modal"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
             </span>
