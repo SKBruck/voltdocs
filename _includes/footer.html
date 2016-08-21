@@ -33,7 +33,7 @@
 
 </script>
 <script>
-  $('form').submit(function( event ) {
+  $('#search-form').submit(function( event ) {
     $('#search-modal').modal('show');
     event.preventDefault();
   });
@@ -51,7 +51,6 @@
       <ul>
         {{#categories}}<li>{{.}} </li>{{/categories}}
       </ul>
-      <p>{{ post.excerpt }}</p>
       {{/is_post}}
     </article>
   {{/entries}}
@@ -64,7 +63,7 @@
       indexUrl  : '/js/index.json',
       results   : '#search-results',
       template  : '#search-results-template',
-      titleMsg  : '<h1>Search results<h1>',
+      titleMsg  : '<h2>Search results<h2>',
       emptyMsg  : '<p>Nothing found.</p>'
     });
   });
