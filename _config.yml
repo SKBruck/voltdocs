@@ -17,8 +17,6 @@ index_categories:
 
 # Exclude files
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'circle.yml', 'vendor', 'deploy.sh']
-lunr_search:
-  excludes: [rss.xml, atom.xml, index.html]
 
 # Jekyll Archives
 jekyll-archives:
@@ -31,3 +29,4 @@ jekyll-archives:
 # Footer content
 footer: >
   Questions? Comments? You can reach us at <a href="mailto:hello@voltcloud.io">hello@voltcloud.io</a>.
+
