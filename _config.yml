@@ -18,7 +18,7 @@ index_categories:
 # Exclude files
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'circle.yml', 'vendor', 'deploy.sh']
 lunr_search:
-  excludes: [rss.xml, atom.xml]
+  excludes: [rss.xml, atom.xml, index.html]
 
 # Jekyll Archives
 jekyll-archives:
