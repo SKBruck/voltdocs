@@ -29,6 +29,7 @@ nav .btn-primary, .btn-primary:hover, .btn-primary:active:hover {
 .jumbotron {
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 3.5em;
+  font-weight: 300;
 }
 
 .jumbotron h1 {
