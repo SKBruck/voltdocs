@@ -8,6 +8,8 @@ html {
 body {
   margin-bottom: 5em;
   height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 /* Navigation */
