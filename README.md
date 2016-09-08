@@ -45,7 +45,7 @@ category: Getting Started
 ---
 ```
 
-You can then write your article using markdown.
+You can then write your article using markdown. Here are docs on the flavor of markdown used: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 ### Publish your article
 
