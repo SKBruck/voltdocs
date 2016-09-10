@@ -26,8 +26,7 @@ To sign up, go into the Volt tab in AppStudio Preferences and click on "Sign up 
 # Using Volt from AppStudio
 There are several places which AppStudio interacts with Voit.
 
-![works](https://www.nsbasic.com/images/nsblogo.png)
-![worksnot](img/posts/volt-for-appstudio-users-runmenu.png)
+![image-of-run-menu](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-runmenu.png)
 
 * Deploy to Volt: Run Menu. This uploads your app to the Volt server. If you have an account, it should be entered into Preferences. If you do not, the app will only remain on the server for an hour.
 
@@ -37,7 +36,13 @@ There are several places which AppStudio interacts with Voit.
 
 - Volt Preferences: in Preferences. Use this panel to enter your Volt email and password. This will let AppStudio sign you on directly when you deploy.
 
+![image-of-volt prefs](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-voltprefs.png)
+
 # Managing your User's Accounts
+
+Volt lets you manage a list of users who are allowed to access your app. It handles signing up, signing in, signing out and all the other functions which are needed (email confirmations, forgot passwords, etc.).
+
+When you sign up for a Volt account, you're using the same mechanism. You will find samples in BASIC and JavaScript in the AppStudio Samples, in a new folder called Volt.
 
 # Email
 
