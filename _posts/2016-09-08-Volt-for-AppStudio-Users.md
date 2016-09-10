@@ -26,8 +26,8 @@ To sign up, go into the Volt tab in AppStudio Preferences and click on "Sign up 
 # Using Volt from AppStudio
 There are several places which AppStudio interacts with Voit.
 
-![](https://www.nsbasic.com/images/nsblogo.png)
-![runmneu](/../images/runmenu.png)
+![works](https://www.nsbasic.com/images/nsblogo.png)
+![worksnot](img/posts/volt-for-appstudio-users-runmenu.png)
 
 * Deploy to Volt: Run Menu. This uploads your app to the Volt server. If you have an account, it should be entered into Preferences. If you do not, the app will only remain on the server for an hour.
 
