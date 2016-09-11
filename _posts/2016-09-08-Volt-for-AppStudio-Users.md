@@ -78,5 +78,4 @@ When you sign up for a Volt account, you're using the same mechanism. You will f
 # Other
 
 # Samples
-
-Sample for using Volt features in AppStudio are included with the normal AppStudio samples, under "4 Volt Services". To use these samples, deploy them to Volt. They will not work in your local browser.
+Samples for using Volt features in AppStudio are included with the normal AppStudio samples, under "4 Volt Services". To use these samples, deploy them to Volt. They will not work in your local browser.
