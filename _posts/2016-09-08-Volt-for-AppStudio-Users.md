@@ -17,6 +17,11 @@ It replaces the AppStudio Server, but does much more. Some of the initial featur
 
 * User Management: Control the list of users who are able to use your app, by giving them sign on codes.
 
+# Demo Users
+
+If you are using the Demo, you do not need to do anything special to use Volt. No account is required. When you deploy, your app will be placed on the Volt Server, and you will be given a link to access it. It will remain on the server for an hour.
+
+Once you sign up for AppStudio, you can create a Volt account and use all the Volt services.
 
 # Managing your own Account
 If you do not have an account, you will still be able to deploy apps. They will be available for about an hour. If you want to apps to remain longer or use Volt features, you will need to sign up.
@@ -26,7 +31,7 @@ To sign up, go into the Volt tab in AppStudio Preferences and click on "Sign up 
 # Using Volt from AppStudio
 There are several places which AppStudio interacts with Voit.
 
-![image-of-run-menu](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-runmenu.png)
+![run-menu](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-runmenu.png)
 
 * Deploy to Volt: Run Menu. This uploads your app to the Volt server. If you have an account, it should be entered into Preferences. If you do not, the app will only remain on the server for an hour.
 
@@ -36,16 +41,42 @@ There are several places which AppStudio interacts with Voit.
 
 - Volt Preferences: in Preferences. Use this panel to enter your Volt email and password. This will let AppStudio sign you on directly when you deploy.
 
-![image-of-volt prefs](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-voltprefs.png)
+![prefs](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-voltprefs.png)
+
+# The Dashboard
+
+The Dashboard is an app for managing your Volt apps. Here's the main screen:
+
+![dashboard](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-dashboard.png)
+
+* Open will run the App
+
+* Clicking on one of the items will open the App Details
+
+![app-details](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-appdetails.png)
+
+* On that same page, there are actions you can perform on your app:
+
+![app-actions](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-appactionss.png)
+
+* Delete removes your app from Volt.
+
+* Users let your view and remove users of that app.
+
+![app-users](https://docs.voltcloud.io/general/volt-for-appstudio-users/img/posts/volt-for-appstudio-users-appusers.png)
+
 
 # Managing your User's Accounts
 
 Volt lets you manage a list of users who are allowed to access your app. It handles signing up, signing in, signing out and all the other functions which are needed (email confirmations, forgot passwords, etc.).
 
-When you sign up for a Volt account, you're using the same mechanism. You will find samples in BASIC and JavaScript in the AppStudio Samples, in a new folder called Volt.
+When you sign up for a Volt account, you're using the same mechanism. You will find samples in BASIC and JavaScript in the AppStudio Samples, in a new folder called Volt. You're welcome to adapt these samples into your own apps.
 
 # Email
+
 
 # Other
 
 # Samples
+
+Sample for using Volt features in AppStudio are included with the normal AppStudio samples, under "4 Volt Services". To use these samples, deploy them to Volt. They will not work in your local browser.
