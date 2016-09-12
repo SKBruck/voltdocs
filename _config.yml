@@ -16,7 +16,7 @@ kramdown:
 permalink: /:categories/:title/
 
 index_categories:
-  - Getting Started
+  - AppStudio
 
 # Exclude files
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'circle.yml', 'vendor', 'deploy.sh', 'CONTRIBUTING.md', 'LICENSE']
