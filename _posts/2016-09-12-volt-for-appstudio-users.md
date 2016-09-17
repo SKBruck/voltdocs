@@ -21,6 +21,12 @@ If you are using the Demo, you don't need to do anything special to use Volt. No
 
 Once you sign up for AppStudio, you can create a Volt account and use all the Volt services.
 
+## AppStudio Registered Users
+
+If you are a licensed AppStudio user, Volt replaces the AppStudio Server you were probably using before. Deploy works the same way. We encourage you to get your free Volt account: it will help you manage your apps.
+
+If you do not want to use any of the additional features (such as Users, Email, etc.) don't worry about them. There is no need to know more at this point.
+
 ## Managing Your Own Account
 
 If you don't have an account, you will still be able to deploy apps. They will be available for about an hour. If you want to apps to remain longer or use Volt features, you will need to sign up.
@@ -35,9 +41,9 @@ There are several places which AppStudio interacts with Volt.
 
 ![AppStudio's run menu]({{ site.baseurl }}/img/posts/volt-for-appstudio-users-runmenu.png)
 
-* Deploy to Volt: Run Menu. This uploads your app to the Volt server. If you have an account, it should be entered into Preferences. If you do not, the app will only remain on the server for an hour.
-* Manage your Volt App: Run Menu. This opens the Volt Dashboard to your currently loaded app and lets you customize its features.
-* Sign In/Sign Up to Volt: Run Menu. This opens the Volt Dashboard and lets you sign in to manage your apps. If you do not have an account, you can sign up for one here.
+* Deploy to Volt: This uploads your app to the Volt server. If you have an account, it should be entered into Preferences. If you do not, the app will only remain on the server for an hour.
+* Manage your Volt App: This opens the Volt Dashboard to your currently loaded app and lets you customize its features.
+* Sign In/Sign Up to Volt: This opens the Volt Dashboard and lets you sign in to manage your apps. If you do not have an account, you can sign up for one here.
 
 ## Volt Preferences
 
@@ -45,16 +51,18 @@ In Preferences. Use this panel to enter your Volt email and password. This will 
 
 ![AppStudio's Volt Preferences]({{ site.baseurl }}/img/posts/volt-for-appstudio-users-voltprefs.png)
 
-## The Dashboard
+## The Dashboard - Your Apps
 
-The Dashboard is an app for managing your Volt apps. Here's the main screen:
+The Dashboard is an app for managing your Volt apps. You can get to it by going to [https://dashboard.voltcloud.io/](https://dashboard.voltcloud.io/). Here's the main screen:
 
 ![The Volt Dashboard]({{ site.baseurl }}/img/posts/volt-for-appstudio-users-dashboard.png)
 
 * Open will run the App
 * Clicking on one of the items will open the App Details
 
-    ![Volt Dashboard's app details]({{ site.baseurl }}/img/posts/volt-for-appstudio-users-appdetails.png)
+## The Dashboard - App Information
+
+![Volt Dashboard's app details]({{ site.baseurl }}/img/posts/volt-for-appstudio-users-appdetails.png)
 
 * On that same page, there are actions you can perform on your app:
 
@@ -63,7 +71,9 @@ The Dashboard is an app for managing your Volt apps. Here's the main screen:
 * Delete removes your app from Volt.
 * Users let your view and remove users of that app.
 
-    ![Volt Dashboard's app users]({{ site.baseurl }}/img/posts/volt-for-appstudio-users-appusers.png)
+## The Dashboard - Users
+
+![Volt Dashboard's app users]({{ site.baseurl }}/img/posts/volt-for-appstudio-users-appusers.png)
 
 ## Managing your App's User Accounts
 
