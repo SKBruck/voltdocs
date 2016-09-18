@@ -134,3 +134,16 @@
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+/* multi-language code tabs styles */
+
+.code-tabs pre {
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-color: #ddd;
+}
+.code-tabs ul.nav-tabs li.active a { background-color: #f5f5f5 }
+.code-tabs ul.nav-tabs li.active a:focus { background-color: #f5f5f5 }
+.code-tabs ul.nav-tabs li.active a:hover { background-color: #f5f5f5 }
+.code-tabs ul.nav-tabs li a:hover { background-color: #f9f9f9 }
