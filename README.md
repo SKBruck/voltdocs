@@ -45,7 +45,7 @@ category: Getting Started
 ---
 ```
 
-You can then write your article using markdown.
+You can then write your article using markdown. Here are docs on the flavor of markdown used: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 ### Publish your article
 
@@ -62,3 +62,25 @@ Commit your changes to the repository and push. The CI server will run a few tes
 ### Adding categories to the index
 
 The index can display an arbitrary number of category blocks. Edit the `index_categories` property in `_config.yml` to control which categories are displayed.
+
+## Multi-language Code Snippets
+
+One unique feature of this site is the ability to display code snippets in multiple languages. Simply use the following template:
+
+```html
+<div class="code-tabs" data-languages="JavaScript,BASIC">
+
+{% highlight javascript %}
+function Main() {
+  console.log('howdy!');
+}
+{% endhighlight %}
+
+{% highlight visualbasic %}
+Sub Main()
+  console.log("howdy!")
+End Sub
+{% endhighlight %}
+
+</div>
+```
