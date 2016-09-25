@@ -16,6 +16,11 @@ kramdown:
 permalink: /:categories/:title/
 
 index_categories:
+  - Getting Started
+  - Authentication
+  - Users
+  - Apps
+  - Services
   - AppStudio
 
 # Exclude files
