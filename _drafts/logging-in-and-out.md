@@ -6,7 +6,7 @@ category: Authentication
 
 Using Volt, you can control who is allowed to use your app. Only users you have set up will be able to log into your app.
 
-## Checking if user is logged in ##
+### Checking if user is logged in ###
 
 Use the $volt.auth.isLoggedIn() to check if a user is logged in:
 
@@ -29,13 +29,13 @@ End If
 {% endhighlight %}
 </div>
 
-## Logging In ##
+### Logging In ###
 
 Logging in identifies you to the Volt server. Here is a typical log in screen:
 
 ![Login Screen]({{ site.baseurl }}/img/posts/logging-in-and-out.png)
 
-Once you have have obtained the user's email and password (either from a screen like to above or otherwise), you can call the $volt.auth.login() function to log the user in.
+Once you have have obtained the user's email and password (either from a screen like the above or otherwise), you can call the $volt.auth.login() function to log the user in.
 
 The syntax of the function is 
 
@@ -86,11 +86,11 @@ End Sub
 {% endhighlight %}
 </div>
 
-## Logging Out ##
+### Logging Out ###
 
 Logging a user out is simple:
 
-**$volt.auth.logout**();
+**$volt.auth.logout**()
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
@@ -104,7 +104,7 @@ Logging a user out is simple:
 
 </div>  
     
-## AppStudio Users ##
+### AppStudio Users ###
 
 AppStudio includes a form for handling login duties, called frmSignOn. If you include it in your app, you can call it as follows:
 
