@@ -38,7 +38,7 @@ GEM
       jekyll (>= 2.4)
     jekyll-compose (0.4.1)
       jekyll (>= 2.5.0)
-    jekyll-feed (0.7.0)
+    jekyll-feed (0.7.1)
     jekyll-lunr-js-search (3.2.0)
       json (~> 1.8)
       nokogiri (~> 1.6)
