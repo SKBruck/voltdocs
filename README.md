@@ -55,6 +55,8 @@ Execute: `jekyll publish _drafts/my-post-title.md`. This will move your article 
 
 Execute: `jekyll serve` and browse to http://127.0.0.1:4000/
 
+If it is a draft, execute: `jekyll serve --drafts --future`
+
 ### Commit your changes
 
 Commit your changes to the repository and push. The CI server will run a few tests against your article. Your article won't become live until it's pulled over to the server which (for now) is a manual process.
