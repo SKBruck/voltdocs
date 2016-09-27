@@ -107,7 +107,6 @@ $volt.auth.logout()
 
 {% highlight javascript %}
 butSignIn.onclick = function() {
-  frmSignOn.show(modalParmsNoClose);
   showSignIn(signInCallback);
 };
 
@@ -119,7 +118,6 @@ function signInCallback() {
 
 {% highlight visualbasic %}
 Function butSignIn_onclick()
-  frmSignOn.show(modalParmsNoClose)
   showSignIn(signInCallback)
 End Function
 
