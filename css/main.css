@@ -87,6 +87,10 @@ p {
   margin-bottom: 1.5em;
 }
 
+pre {
+  font-size: 14px;
+}
+
 /* Footer */
 
 footer {
