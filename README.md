@@ -30,7 +30,7 @@ If you'd like to be able to preview the site or use tools to write new posts, st
 * Make sure ruby is installed. The site has been tested with v2.3.0, but other versions should work. My suggestion is to use RVM: https://rvm.io/
 * (Optional) Create/enable a gemset. The project includes a `.ruby-gemset` file and if you switch into the project directory, it's created automatically by RVM.
 * Install bundler: `gem install bundler`
-* Install the bundle: `bundle install`
+* Install the bundle: `bundle install` (if the Gemfile.lock is updated, you may need to run this again)
 * Test the site: `jekyll serve` - you should be able to browse the site at http://127.0.0.1:4000/
 
 ### Start a draft
