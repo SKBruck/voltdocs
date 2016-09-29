@@ -143,6 +143,8 @@ End Function
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
 {% highlight javascript %}
+var queryParams = location.hash.split("/");
+
 function Main() {
     if ((queryParams.length > 1)) {
         if (queryParams[1] == "reset") {
