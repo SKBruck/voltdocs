@@ -1,6 +1,7 @@
 ---
 layout: post
 title: User Confirmation
+category: Authentication
 ---
 
 ## Setting up the Dashboard

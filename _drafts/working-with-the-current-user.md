@@ -79,7 +79,7 @@ The syntax of the function is:
 * *userID* - String, Optional. The User ID to request. Defaults to logged on user.
 * *callback* - function(error, data), required. The function in your app to call when the request to Volt is complete (or fails).
 
-With the initial release of Volt, all fields are better updated using functions like [$volt.auth.reset()](/auth/resetting-passwords/).
+With the initial release of Volt, all fields are better updated using functions like [$volt.auth.reset()](/authentication/resetting-passwords/).
 
 ## Delete a User
 
