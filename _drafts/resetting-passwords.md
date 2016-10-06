@@ -14,68 +14,71 @@ First, let's review what happens when a user forgets a password:
 1. The link opens your app to its password reset form.
 1. The new password information is sent to Volt to update the user's data.
 
-## Setting up the Dashboard ##
+The capability to reset passwords is disabled by default. You can enable it by setting your app's Reset URL in the Dashbaord.
 
-In the Dashboard, you can set the page in your app that handles user password resets. The special value {{token}} is replaced by an actual confirmation token that your app can use to reset the password.
+## Setting up the Dashboard
 
-![Reset]({{ site.baseurl }}/img/posts/resetting-passwords-reset.png)
+In the Dashboard, you can set the page in your app that handles user password resets. The special value {% raw %}{{token}}{% endraw %} is replaced by an actual confirmation token that your app can use to reset the password. Confirmation tokens expire one hour after sending.
+
+![Reset URL]({{ site.baseurl }}/img/posts/resetting-passwords-reset.png)
 
 The sample string shown is a reasonable one:
 
 * /# - indicates you want to go to a page (form) in your app.
 * /reset - specifically, the reset form.
-* &#123;&#123;token}} - substitute the reset token here. This will be passed back to Volt later to authenticate the reset.
+* {% raw %}{{token}}{% endraw %} - substitute the reset token here. This will be passed back to Volt later to authenticate the reset.
 
-## Forgotten Passwords ##
+## Forgotten Passwords
 
 To ask Volt to reset a forgotten password, you can call the `$volt.auth.forgot()` function to start the process.
 
 The syntax of the function is:
 
-**$volt.auth.forgot**(*email*, *callback*)
+**$volt.auth.forgot**(*email*, *appId*, *callback*)
 
 * *email* - string, required. The email address of the user.
+* *appId* - string, optional. The Volt ID of the app to sign into. If not supplied, defaults to value set in `$volt.init(appId)`.
 * *callback* - function(error, data), required. The function in your app to call when the request to Volt is complete (or fails).
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
 {% highlight javascript %}
-butSendResetPassword.onclick = function() {
-    $volt.auth.forgot(inpEmail.value, butSendResetPasswordCallback);
+butSendResetPassword.onclick = function () {
+  $volt.auth.forgot(inpEmail.value, butSendResetPasswordCallback);
 }
 
 function butSendResetPasswordCallback(error, data) {
-    if (error) {
-        if (data === undefined) data = {
-            message: "Network Error"
-        };
-        alert(data.message;
-    } else {
-        alert("An email is on its way to you.");
+  if (error) {
+    if (!data) {
+      data = { message: 'Network Error' };
     }
+    alert(data.message);
+  } else {
+    alert('An email is on its way to you.');
+  }
 }
 {% endhighlight %}
 
 {% highlight visualbasic %}
-Function butSendResetPassword_onclick() 
-    $volt.auth.forgot(inpEmail.value, butSendResetPasswordCallback)
+Function butSendResetPassword_onclick()
+  $volt.auth.forgot(inpEmail.value, butSendResetPasswordCallback)
 End Function
 
 Function butSendResetPasswordCallback(error, data)
-    If (error) Then
-        If (data === undefined) Then data = {message: "Network Error"}
-        MsgBox data.message
-    Else
-        MsgBox "An email is on its way to you."
-    End If
+  If (error) Then
+    If (!data) Then data = { message: "Network Error" }
+    MsgBox data.message
+  Else
+    MsgBox "An email is on its way to you."
+  End If
 End Function
 {% endhighlight %}
 
 </div>
 
-## Resetting Passwords ##
+## Resetting Passwords
 
-Here's the email similar to what Volt will send to your user. If the link is clicked on, your app will open. 
+Here's an email similar to what Volt will send to your user. If the link is clicked on, your app will open.
 
 ```
 Click the link below to reset your password:
@@ -85,52 +88,57 @@ https://project1.voltcloud.io/#/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpY
 If you didn't request a password reset, you can ignore this message.
 ```
 
-The complete string will be in location.hash in your app. You'll want to show a form which looks something like this:
+The complete string will be in `location.hash` in your app. You'll want to show a form which looks something like this:
 
-![Reset]({{ site.baseurl }}/img/posts/resetting-passwords-form.png)
+![Reset Form]({{ site.baseurl }}/img/posts/resetting-passwords-form.png)
 
 Once the user has filled in the new password and confirmation, you can send it to Volt using the `$volt.auth.reset()` function.
 
 The syntax of the function is:
 
-**$volt.auth.reset**(*token*, *password*, *passwordConfirm*, *callback*)
+**$volt.auth.reset**(*token*, *password*, *confirmation*, *callback*)
 
 * *token* - string, required. The token in the URL.
 * *password* - string, required. The new password.
-* *passwordConfirm* - string, required. The confirmation password. Should be the same.
+* *confirmation* - string, required. The confirmation password. Should be the same.
 * *callback* - function(error, data), required. The function in your app to call when the request to Volt is complete (or fails).
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
 {% highlight javascript %}
-butResetPassword.onclick = function() {
-    $volt.auth.reset(queryParams[2], inpPasswordNew.value, inpPasswordConfirm.value, resetPasswordCallback);
+butResetPassword.onclick = function () {
+  var queryParams = location.hash.split('/');
+
+  $volt.auth.reset(queryParams[2], inpPasswordNew.value, inpPasswordConfirm.value, resetPasswordCallback);
 }
 
 function resetPasswordCallback(error, data) {
-    if (error) {
-        if (data === undefined) data = {
-            message: "Network Error"
-        };
-        alert(data.message);
-    } else {
-        alert("Password Updated.");
+  if (error) {
+    if (!data) {
+      data = { message: 'Network Error' };
     }
+    alert(data.message);
+  } else {
+    alert('Password Updated.');
+  }
 }
 {% endhighlight %}
 
 {% highlight visualbasic %}
-Function butResetPassword_onclick() 
-    $volt.auth.reset(queryParams[2], inpPasswordNew.value, inpPasswordConfirm.value, resetPasswordCallback);
+Function butResetPassword_onclick()
+  Dim queryParams
+  queryParams = location.hash.split("/")
+
+  $volt.auth.reset(queryParams[2], inpPasswordNew.value, inpPasswordConfirm.value, resetPasswordCallback);
 End Function
 
-Function resetPasswordCallback(error, data) 
-    If error Then
-        If (data === undefined) Then data = {message: "Network Error"}
-        MsgBox data.message
-    Else
-        MsgBox "Password Updated."
-    End If
+Function resetPasswordCallback(error, data)
+  If error Then
+    If (!data) Then data = { message: "Network Error" }
+    MsgBox data.message
+  Else
+    MsgBox "Password Updated."
+  End If
 End Function
 {% endhighlight %}
 
@@ -143,14 +151,14 @@ End Function
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
 {% highlight javascript %}
-var queryParams = location.hash.split("/");
+var queryParams = location.hash.split('/');
 
 function Main() {
-    if ((queryParams.length > 1)) {
-        if (queryParams[1] == "reset") {
-            showResetPassword();
-        }
+  if ((queryParams.length > 1)) {
+    if (queryParams[1] == 'reset') {
+      showResetPassword();
     }
+  }
 }
 {% endhighlight %}
 
@@ -169,3 +177,11 @@ End Sub
 
 </div>
 
+## Reference
+
+* JavaScript API
+  * <https://docs.voltcloud.io/client/$volt.auth.html#.forgot>
+  * <https://docs.voltcloud.io/client/$volt.auth.html#.reset>
+* REST API
+  * <https://docs.voltcloud.io/api/#authentication-forgot-password-post>
+  * <https://docs.voltcloud.io/api/#authentication-reset-password-post>
