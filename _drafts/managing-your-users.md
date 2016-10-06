@@ -10,12 +10,9 @@ Volt supplies a [Dashboard](https://dashboard.voltcloud.io/) to help manage your
 
 Here is what you see when you log into the Dashboard, choose an app and click on the Users button:
 
-![Your Apps]({{ site.baseurl }}/img/posts/managing-your-users.png)
-&nbsp;
-&nbsp;
-&nbsp;
+![User Management]({{ site.baseurl }}/img/posts/managing-your-users.png)
 
-Each of your users is shown, whether they are confirmed or not. 
+Each of your users is shown, whether they are confirmed or not.
 
 To delete a user, click on the Delete button. All information about the user will be permanently removed. The user will have to sign up again to use your app.
 
