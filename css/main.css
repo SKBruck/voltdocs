@@ -69,6 +69,7 @@ nav .btn-primary, .btn-primary:hover, .btn-primary:active:hover {
 
 .post-list {
   list-style-type: none;
+  padding-left: 20px;
 }
 
 p {
