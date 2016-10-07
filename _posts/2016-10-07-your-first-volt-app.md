@@ -55,3 +55,7 @@ If you have [subscribed](https://www.nsbasic.com/i/Subscription/) to AppStudio o
 To use the [Dashboard](https://dashboard.voltcloud.io/), you'll need a Volt account. If you have a Starter, Essential or Pro subscription, you're entitled to a free Volt account. Reply to the registration confirmation email by setting up a password and you'll be allowed to use it.
 
 You can also set up a Volt account from the AppStudio Run menu or from [Volt Preferences](http://wiki.nsbasic.com/Preferences).
+
+## Reference
+
+* JavaScript API: <https://docs.voltcloud.io/client/$volt.html#.init>
