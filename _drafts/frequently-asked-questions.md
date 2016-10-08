@@ -58,7 +58,7 @@ Yes, for now. Soon, we’ll open up Volt to everyone. Contact us at <hello@voltc
 
 ### How is this different from the AppStudio Server (nsbapp.com)?
 
-THe AppStudio Server was designed to help with development, but for permanent hosting. Volt is a permanent hosting solution. It provides all the tools you need to either host your app, or provide a backend for a hybrid app or existing server.
+The AppStudio Server was designed to help with development, but not permanent hosting. Volt is a permanent hosting solution. It provides all the tools you need to either host your app, or provide a backend for a hybrid app or existing server.
 
 ### Can I continue to use the AppStudio Server?
 
