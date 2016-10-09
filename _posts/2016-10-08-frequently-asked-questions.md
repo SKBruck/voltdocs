@@ -50,11 +50,11 @@ The result will be that apps will look like they originate from your website, bu
 
 Nearly any legal use is acceptable. You can learn more from our [terms of service](https://www.nsbasic.com/app/AppStudioTOS.txt).
 
+### Who can use it?
+
+Initially, just AppStudio users. If you're not an AppStudio user, please contact us if you would like to get early access. Note that the service is just launching and we're still likely to make changes to it. Contact us at <hello@voltcloud.io> for early access.
+
 ## AppStudio Users
-
-### Do I need to be an AppStudio user?
-
-Yes, for now. Soon, we’ll open up Volt to everyone. Contact us at <hello@voltcloud.io> for early access.
 
 ### How is this different from the AppStudio Server (nsbapp.com)?
 
