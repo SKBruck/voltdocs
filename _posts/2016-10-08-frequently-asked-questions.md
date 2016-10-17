@@ -82,3 +82,12 @@ Sorry, no. It does not have the interfaces required. AppStudio 5 is only designe
 
 If you purchase a subscription to AppStudio, then Volt is free for the duration of your subscription. We highly suggest purchasing a subscription to get the most out of AppStudio and Volt.  It is possible to use a limited version Volt without a subscription to AppStudio as well.
 
+### When I try to reset my password I get a message "Unauthorized". What do I do?
+
+Account activations expire after an hour. Fortunately, getting a new link is easy:
+
+1. Navigate to [https://dashboard.voltcloud.io/](https://dashboard.voltcloud.io/)
+2. Click on “Forgot your password?”
+3. Enter in the email address you registered with.
+4. A new email should arrive shortly.
+
