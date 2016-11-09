@@ -64,7 +64,9 @@ What gets returned? Here is what is in the initial release of Volt:
 {
   "id": "7PQipR",
   "email": "support@nsbasic.com",
-  "confirmed": true
+  "confirmed": true,
+  "first_name": "John",
+  "last_name": "Smith"
 }
 ```
 
@@ -88,11 +90,13 @@ The data object should be of the following form:
     "old": "myOldPassword",
     "new": "myNewPassword",
     "confirmation": "myNewPassword"
-  }
+  },
+  "first_name": "Alan",
+  "last_name": "Turing"
 }
 ```
 
-You can pass `email`, `password` or both. Here's an example of changing the logged in user's email:
+You can pass `email`, `password`, `first_name`, `last_name` or any combination thereof. Here's an example of changing the logged in user's email:
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
