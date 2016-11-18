@@ -4,9 +4,11 @@ title: Your First Volt App
 category: Getting Started
 ---
 
-Volt is designed to require very little code to get started. Currently you must use AppStudio to create and deploy a new app. We're working to allow apps to be uploaded and deployed using a wide variety of common tools.
+Volt is designed to require very little code to get started. Currently, there are two ways to create and upload an app:
+* From the "Your Apps" page in the [dashboard](https://dashboard.voltcloud.io) click on "+ Add App". Once your App has been created, you can click on the "Upload" button on the "App Information" page. This will prompt you to upload a zip file of your app.
+* You can upload any app you create in [AppStudio](#for-appstudio-users).
 
-The following section is currently for informational purposes only.
+We're working to allow apps to be uploaded and deployed using a wide variety of common tools.
 
 ## Initializing
 
