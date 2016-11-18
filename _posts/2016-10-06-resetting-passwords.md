@@ -78,7 +78,7 @@ End Function
 
 ## Resetting Passwords
 
-Here's an email similar to what Volt will send to your user. If the link is clicked on, your app will open.
+Here's an email similar to what Volt will send to your user. If the link is clicked on, your app will open. Password resets expire after one hour.
 
 ```
 Click the link below to reset your password:

@@ -22,7 +22,7 @@ The sample string shown is a reasonable one:
 
 Once your user registers, Volt will send a confirmation email to make sure he is a legitimate user.
 
-Here's an email similar to what Volt will send to your user. If the link is clicked on, your app will open.
+Here's an email similar to what Volt will send to your user. If the link is clicked on, your app will open. Confirmations expire after 12 hours.
 
 ```
 Thanks for signing up! Please click the link below to confirm your account:
