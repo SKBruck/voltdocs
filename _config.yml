@@ -4,7 +4,7 @@ description: >
   Documentation and tutorials for Volt. The categories below are a great place to get started, or you can browse <a href="/article-index/">all the articles</a>.</p><p>Have a question or just want to say hi? Email us at <a href="mailto:hello@voltcloud.io">hello@voltcloud.io</a>.
 url: "https://docs.voltcloud.io"
 copyright: |
-  Help make Volt better by <a href="https://github.com/arsmentis/volt-docs/blob/master/CONTRIBUTING.md">contributing</a> to our documentation!<br />
+  Copyright &copy; 2017 NS BASIC Corporation<br>
   This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 tracking_id: 'UA-81364729-3'
@@ -35,5 +35,6 @@ jekyll-archives:
     category: '/:name/'
 
 # Footer content
-footer: >
-  Questions? Comments? You can reach us at <a href="mailto:hello@voltcloud.io">hello@voltcloud.io</a>.
+footer: |
+  Questions? Comments? You can reach us at <a href="mailto:hello@voltcloud.io">hello@voltcloud.io</a>.<br>
+  Help make Volt better by <a href="https://github.com/arsmentis/volt-docs/blob/master/CONTRIBUTING.md">contributing</a> to our documentation!
