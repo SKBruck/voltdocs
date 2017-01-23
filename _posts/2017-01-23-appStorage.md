@@ -4,13 +4,13 @@ title: App Storage
 category: Services
 ---
 
-appStorage allows you to store data in key, value pairs on the server so it is available to all users of the app. An entry can be created by assigning to appStorage.setItem(key, value), where key is chosen by you. Data is retrieved a similar way. Apps can only read the appStorage. Use the Dashboard to clear, remove or change the entries.
+App Storage allows you to store data as (key, value) pairs on the server so it is available to all users of an app. An entry can be created by assigning to appStorage.setItem(*key*, *value*, *callback*), where *key* is specified by you. Data is retrieved a similar way. Apps can only read appStorage. Use the Dashboard to clear, remove or change the entries.
 
-Value can be a string, number, array or object. There is no size limit on value, other than it be reasonable.
+The *value* can be a string, number, array or object. There is no size limit on *value*, other than it be reasonable.
 
 If your app does not have a live internet connection, the request will time out and an error message will be passed to callback.
 
-Since the calls access information on a server, they are asynchronous (so your app does not look up while the call is being processed). When the call is complete, the function named in callback is called in your app. It passes two parameters: (error, data). If the call is successful, error is empty and your results are in data. If the call is unsuccessful, error is not empty and the error message is in data.message.
+Since the calls access information on a server, they are asynchronous (so your app does not look up while the call is being processed). When the call is complete, the function named in *callback* is called in your app. It passes two parameters: (*error*, *data*). If the call is successful, *error* is empty and your results are in *dat*a. If the call is unsuccessful, *error* is not empty and the error message is in *data*.message.
 
 appStorage is an alias for $volt.storage in the Volt API.
 
@@ -22,7 +22,7 @@ The syntax of the function is:
 
 **appStorage.clear**(*callback*)
 
-* *callback* - function(error, data), required. The function in your app to call when the function is complete (or fails).
+* *callback* - function(*error*, *data*), required. The function in your app to call when the function is complete (or fails).
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
@@ -64,14 +64,14 @@ End Function
 
 ## appStorage.getItem
 
-This call gets the item with a specified key.
+This call returns the value of the item with the specified *key*.
 
 The syntax of the function is:
 
 **appStorage.getItem**(*key*, *callback*)
 
 * *key* - The name of the item. String.
-* *callback* - function(error, data), required. The function in your app to call when the function is complete (or fails).
+* *callback* - function(*error*, *data*), required. The function in your app to call when the function is complete (or fails).
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
@@ -119,7 +119,7 @@ The syntax of the function is:
 
 **appStorage.getAllItems**(*callback*)
 
-* *callback* - function(error, data), required. The function in your app to call when the function is complete (or fails).
+* *callback* - function(*error*, *data*), required. The function in your app to call when the function is complete (or fails).
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
@@ -175,7 +175,7 @@ The syntax of the function is:
 **appStorage.removeItem**(*key*, *callback*)
 
 * *key* - The name of the item. String.
-* *callback* - function(error, data), required. The function in your app to call when the function is complete (or fails).
+* *callback* - function(*error*, *data*), required. The function in your app to call when the function is complete (or fails).
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
@@ -224,7 +224,7 @@ The syntax of the function is:
 
 * *key* - The name of the item. String.
 * *value* - The name of the item. Can be string, number, array, object: any JavaScript data type.
-* *callback* - function(error, data), required. The function in your app to call when the function is complete (or fails).
+* *callback* - function(*error*, *data*), required. The function in your app to call when the function is complete (or fails).
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
@@ -275,5 +275,5 @@ End Function
 
 ## Reference
 
-* JavaScript API: <https://docs.voltcloud.io/client/$volt.user.storage.html>
+* JavaScript API: <https://docs.voltcloud.io/client/$volt.storage.html>
 * REST API: <https://docs.voltcloud.io/api/#storage-plug-in>
