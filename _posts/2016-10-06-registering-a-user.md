@@ -24,7 +24,7 @@ The syntax of the function is:
 * *appId* - string, optional. The Volt ID of the app to sign into. If not supplied, defaults to value set in `$volt.init(appId)`.
 * *callback* - function(error, data), required. The function in your app to call when the register is complete (or fails).
 
-After Volt received the register, it will send a [confirmation email](/authentication/user-confirmation/) if you have enabled that functionality.
+After Volt receives the registration, it will send a [confirmation email](/authentication/user-confirmation/) if you have enabled that functionality.
 
 <div class="code-tabs" data-languages="JavaScript,BASIC">
 
