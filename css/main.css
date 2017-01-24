@@ -93,6 +93,30 @@ pre {
   font-size: 13px;
 }
 
+.anchor-link {
+  position: relative;
+  left: 0.5em;
+  opacity: 0;
+  font-size: 0.8em;
+
+  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+  -moz-transition: opacity 0.2s ease-in-out 0.1s;
+  -ms-transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  opacity: 1;
+}
+
+.glyphicon {
+  font-size: .6em;
+  color: #EF5214;
+}
+
 /* Footer */
 
 footer {
