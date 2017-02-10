@@ -12,7 +12,7 @@ Volt is a platform to electrify your web apps. It provides simple hosting and ex
 
 As a web host, it provides an easy to use interface to deploy apps, custom names using full HTTPS on a fast, stable platform.
 
-Extended services include user management, server storage and will include a steady supply of new services. [Let us know](mailto:hello@voltcloud.io) what you’re interested in!
+Extended services include user management, server storage and will include a steady supply of new services. [Let us know](mailto:support@nsbasic.com) what you’re interested in!
 
 ### How safe is my data?
 
@@ -38,7 +38,7 @@ That’s what we’re trying to get away from. PHP can be tricky, especially for
 
 ### I need a custom service. Can I talk to you about it?
 
-Yes. Drop us a line at hello@voltcloud.io. If we think your idea might be useful to other users (and you don’t mind), we’ll even give you a break on the dev costs.
+Yes. Drop us a line at support@nsbasic.com. If we think your idea might be useful to other users (and you don’t mind), we’ll even give you a break on the dev costs.
 
 ### Volt calls my app https://mygreatapp.volt.live. Can I use my own URL?
 
@@ -52,7 +52,7 @@ Nearly any legal use is acceptable. You can learn more from our [terms of servic
 
 ### Who can use it?
 
-Initially, just AppStudio users. If you're not an AppStudio user, please contact us if you would like to get early access. Note that the service is just launching and we're still likely to make changes to it. Contact us at <hello@voltcloud.io> for early access.
+Initially, just AppStudio users. If you're not an AppStudio user, please contact us if you would like to get early access. Note that the service is just launching and we're still likely to make changes to it. Contact us at <support@nsbasic.com> for early access.
 
 ## AppStudio Users
 
