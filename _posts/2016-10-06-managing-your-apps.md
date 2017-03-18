@@ -36,6 +36,12 @@ Here's what the fields are:
 
 **Reset Page** - The page in your app that handles user password resets. The special value {% raw %}{{token}}{% endraw %} is replaced by an actual confirmation token that your app can use to reset the password. Learn more about [resetting passwords](/authentication/resetting-passwords).
 
+**Framing** - Controls if the app can be framed by another site. Can be set to none, self, any, or domain. If set to none (the default) then framing is not allowed. If set to self, then the app can only frame itself. If set to any then any site can frame the app (this is not recommended). If set to domain then only the URL which is specified will be allowed to frame the site.
+
+**CORS** - Controls if the app's API allows incoming requests from other domains (CORS). cors_type can be set to none, any, or domain. If set to none (the default), then no cross domain requests are allowed. If set to any, requests from any domain are allowed (this is not recommended). If set to domain, requests will be allowed only from specified URL.
+
+**Nice Links** - If set, the server will redirect links that aren't found to index.html, allowing a client side router to service any links. No # character will appear in the URL. For AppStudio users, be sure to set NiceLinks in [Project Properties](http://wiki.nsbasic.com/Properties_Window) to true as well.
+
 ### Actions
 
 **Users** - Opens the [Users](/users/managing-your-users) screen. Use it to see the list of your users for the app, and to delete them.
