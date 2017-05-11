@@ -22,6 +22,10 @@ nav .btn-primary, .btn-primary:hover, .btn-primary:active:hover {
   line-height: 22px;
 }
 
+.glyphicon.glyphicon-search {
+  color: #fff;
+}
+
 /* Main Content */
 
 .jumbotron {
