@@ -167,6 +167,25 @@ h3.search-title {
   }
 }
 
+@media (max-width: 676px) {
+  .footer .navbar-brand {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+  }
+  .footer .copyright {
+    font-size: .75em;
+  }
+}
+
+@media (max-width: 567px) {
+  .footer .navbar-brand {
+    font-size: .75em;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+  }
+}
+
 @media print {
   .footer {
     position: static;
